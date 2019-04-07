@@ -1,5 +1,5 @@
 # JabaDaba
-JabaDaba is a powerful wrapper for Java<br>
+JabaDaba is a powerful wrapper for Java which helps to make your code pretty<br>
 <br>
 
 **Usage**

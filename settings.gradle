@@ -1,0 +1,4 @@
+  include ':jabadaba', ':jtar', ':json'
+  
+  project (':jtar').projectDir = new File ('C:\\Projects\\AndroidStudio\\[Side]\\jTar\\jtar')
+  project (':json').projectDir = new File ('C:\\Projects\\AndroidStudio\\[Side]\\JSON\\json')

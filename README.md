@@ -20,7 +20,7 @@ Write stringified `Object` to file. Put `append` to *true* if you want to write 
     Files.write (List<?> array, String|File file, false, String charset)
     Files.write (List<?> array, String|File file, false, "utf-8")
     
-Write `List` to file. Put `append` to true if you want to write at the end of existing file.<br>
+Write `List` to file. Put `append` to *true* if you want to write at the end of existing file.<br>
 <br>
 
     String Files.read (String|File|InputStream input)		

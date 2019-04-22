@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JabaDaba.iml" filepath="$PROJECT_DIR$/JabaDaba.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jabadaba/jabadaba.iml" filepath="$PROJECT_DIR$/.idea/modules/jabadaba/jabadaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-208878286/json.iml" filepath="$PROJECT_DIR$/.idea/modules/-208878286/json.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2108299538/jtar.iml" filepath="$PROJECT_DIR$/.idea/modules/2108299538/jtar.iml" />
     </modules>
   </component>
 </project>

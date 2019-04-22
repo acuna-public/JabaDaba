@@ -1,14 +1,15 @@
   apply plugin: 'java-library'
   
   apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/bintray.gradle'
-  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/pub.gradle'
+  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/publish.gradle'
   
   dependencies {
     
     implementation fileTree (include: ['*.jar'], dir: 'libs')
     
     api 'org.json:json:20180130'
-    api project (':json')
+    api 'pro.acuna:json:+'
+    //api project (':json')
     api 'org.jsoup:jsoup:1.11.3'
     api 'com.cedarsoftware:json-io:4.10.1'
     

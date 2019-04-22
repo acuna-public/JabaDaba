@@ -257,9 +257,21 @@
 		public static void download (String url, String fileName) throws HttpRequestException {
 			download (url, fileName, getUserAgent ());
 		}
-		
-		public static void download (String url, String fileName, String userAgent) throws HttpRequestException {
-			download (url, new File (fileName), userAgent, null);
+    
+    public static void download (String url, String fileName, String userAgent) throws HttpRequestException {
+      download (url, new File (fileName), userAgent);
+    }
+    
+    public static void download (URL url, String fileName, String userAgent) throws HttpRequestException {
+      download (url, new File (fileName), userAgent);
+    }
+    
+    public static void download (URL url, File file, String userAgent) throws HttpRequestException {
+      download (url.toString (), file, userAgent);
+    }
+    
+    public static void download (String url, File fileName, String userAgent) throws HttpRequestException {
+			download (url, fileName, userAgent, null);
 		}
 		
 		public static void download (String url, File fileName, String userAgent, ProgressListener listener) throws HttpRequestException {

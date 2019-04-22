@@ -9,8 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/jabadaba" />
-            <option value="$PROJECT_DIR$/../[Side]/JSON/json" />
-            <option value="$PROJECT_DIR$/../[Side]/jTar/jtar" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

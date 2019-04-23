@@ -9,7 +9,6 @@
     
     api 'org.json:json:20180130'
     api 'pro.acuna:json:+'
-    //api project (':json')
     api 'org.jsoup:jsoup:1.11.3'
     api 'com.cedarsoftware:json-io:4.10.1'
     

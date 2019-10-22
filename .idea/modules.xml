@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JabaDaba.iml" filepath="$PROJECT_DIR$/JabaDaba.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jabadaba/jabadaba.iml" filepath="$PROJECT_DIR$/jabadaba/jabadaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JabaDaba.iml" filepath="$PROJECT_DIR$/JabaDaba.iml" group="JabaDaba" />
+      <module fileurl="file://$PROJECT_DIR$/jabadaba/jabadaba.iml" filepath="$PROJECT_DIR$/jabadaba/jabadaba.iml" group="JabaDaba/jabadaba" />
     </modules>
   </component>
 </project>

@@ -8,11 +8,11 @@
     implementation fileTree (include: ['*.jar'], dir: 'libs')
     
     api 'org.json:json:20180130'
-    api 'pro.acuna:json:+'
+    api 'pro.acuna:json:1.0'
     api 'org.jsoup:jsoup:1.11.3'
     api 'com.cedarsoftware:json-io:4.10.1'
     
   }
   
   sourceCompatibility = '1.7'
-  version = '1.5'
+  version = project.property ('libraryVersion')

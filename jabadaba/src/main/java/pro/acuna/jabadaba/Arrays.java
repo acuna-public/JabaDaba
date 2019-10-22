@@ -144,8 +144,12 @@
         
         for (int i = min; i < max; ++i) {
           
-          if (i > min) output.append (preg);
-          output.append (string[i]);
+          if (!string[i].equals (preg)) {
+            
+            if (i > min) output.append (preg);
+            output.append (string[i]);
+            
+          }
           
         }
         

@@ -6,13 +6,14 @@
   dependencies {
     
     implementation fileTree (include: ['*.jar'], dir: 'libs')
-    
-    api 'org.json:json:20180130'
-    api 'ru.ointeractive:json:1.0'
-    api 'org.jsoup:jsoup:1.11.3'
-    api 'com.cedarsoftware:json-io:4.10.1'
+  
+    api 'org.json:json:20190722'
+    //api 'pro.acuna:json:+'
+    api project (':json')
+    api 'org.jsoup:jsoup:1.12.1'
+    api 'com.cedarsoftware:json-io:4.11.1'
     
   }
-  
+	
   sourceCompatibility = '1.7'
   version = project.property ('libraryVersion')

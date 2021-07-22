@@ -1,3 +1,5 @@
+Obsolete. Stays for historical reasons. Now is the part of [UPL Core!](https://github.com/upl-lang/Core).
+
 # JabaDaba
 JabaDaba is a powerful wrapper for Java which helps to make your code pretty<br>
 <br>
